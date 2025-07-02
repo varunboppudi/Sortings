@@ -65,6 +65,7 @@ public class Main {
                 int temp=a[j-1];
                 a[j-1]=a[j];
                 a[j]=temp;
+                j--;
             }
         }
         System.out.println("InsertionSort");
